@@ -34,7 +34,7 @@
 <createdBy>Gustavo Padlipskas</createdBy>
 <createdTime>2022-04-12 03:47:28 UTC</createdTime>
 <comment><![CDATA[Esse atributo irá receber o número do  RG  paciente.  Seu conteúdo é obrigatório e será validado de acordo com regras de negócio.]]></comment>
-<commentInRDBMS><![CDATA[Esse atributo irá receber o número do  RG  paciente.  Seu conteúdo é obrigatório e será validado de acordo com regras de negócio.]]></commentInRDBMS>
+<commentInRDBMS><![CDATA[Esse atributo irá receber o número do  RG  paciente.  Seu conteúdo é obrigatór]]></commentInRDBMS>
 <ownerDesignName>CP</ownerDesignName>
 <engineerTo>
 <item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
