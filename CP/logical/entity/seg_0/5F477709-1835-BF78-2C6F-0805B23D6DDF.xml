@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5F477709-1835-BF78-2C6F-0805B23D6DDF" name="T_RHSTU_MEDICO">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2022-04-29 12:55:52 UTC</createdTime>
+<ownerDesignName>CP</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_PESSOA" id="7A133681-4557-FB30-F379-369006E9F234">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-05-16 14:38:51 UTC</createdTime>
+<generatorID>1A48BAA0-1FBA-AC21-8B04-1C64B8BD14ED</generatorID>
+<ownerDesignName>CP</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<referedAttribute>31DD9CFF-C8C8-6D12-5F4D-D047189CE64E</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_CRM" id="4DF2C6EE-69D0-134A-D06B-0D24B5EF3009">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2022-04-29 12:55:52 UTC</createdTime>
+<ownerDesignName>CP</ownerDesignName>
+<importedID>B5E26CE9-A5C8-EBFE-EEC4-0579258AFF9C</importedID>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_ESPECIALIDADE" id="2EAED291-978F-DBE1-D669-D125320D27BB">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2022-04-29 12:55:52 UTC</createdTime>
+<ownerDesignName>CP</ownerDesignName>
+<importedID>07297610-A4B4-A346-B7D2-340186286C21</importedID>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CD_FUNCIONARIO" id="0A57864D-484E-4634-0A97-6F1793AFBB7E">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-05-16 14:38:51 UTC</createdTime>
+<generatorID>1A48BAA0-1FBA-AC21-8B04-1C64B8BD14ED</generatorID>
+<ownerDesignName>CP</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<referedAttribute>3904BCB3-2F77-585A-585A-DA064F31BF1D</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="42357FD1-4EB3-2628-0F66-ABEEA687B1EC" name="PK_RHSTU_MEDICO">
+<createdBy>logonpflocal</createdBy>
+<createdTime>2022-04-29 12:55:52 UTC</createdTime>
+<ownerDesignName>CP</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>1A48BAA0-1FBA-AC21-8B04-1C64B8BD14ED</newElementsIDs>
+<usedAttributes>
+<attributeRef>0A57864D-484E-4634-0A97-6F1793AFBB7E</attributeRef>
+<attributeRef>7A133681-4557-FB30-F379-369006E9F234</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

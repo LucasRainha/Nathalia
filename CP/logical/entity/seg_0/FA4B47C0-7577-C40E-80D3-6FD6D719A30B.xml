@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="FA4B47C0-7577-C40E-80D3-6FD6D719A30B" name="T_RHSTU_FUNCIONARIO">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-05-16 13:31:20 UTC</createdTime>
+<ownerDesignName>CP</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_PESSOA" id="31DD9CFF-C8C8-6D12-5F4D-D047189CE64E">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-05-16 14:38:37 UTC</createdTime>
+<generatorID>8E3341EA-49CE-F8C2-0FBD-DD9562E85334</generatorID>
+<ownerDesignName>CP</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<referedAttribute>4790650B-0CBF-5798-0793-1CB11868F64C</referedAttribute>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="CD_FUNCIONARIO" id="3904BCB3-2F77-585A-585A-DA064F31BF1D">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-05-16 13:50:19 UTC</createdTime>
+<ownerDesignName>CP</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ST_ATIVIDADE" id="63412AA7-2269-F936-E4AF-B9ABD30F6323">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-05-16 13:45:33 UTC</createdTime>
+<ownerDesignName>CP</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4A08A1B3-537E-0A02-73EC-EA25B9C6898B" name="T_RHSTU_FUNCIONARIO PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2024-05-16 13:50:42 UTC</createdTime>
+<ownerDesignName>CP</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>3904BCB3-2F77-585A-585A-DA064F31BF1D</attributeRef>
+<attributeRef>31DD9CFF-C8C8-6D12-5F4D-D047189CE64E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
